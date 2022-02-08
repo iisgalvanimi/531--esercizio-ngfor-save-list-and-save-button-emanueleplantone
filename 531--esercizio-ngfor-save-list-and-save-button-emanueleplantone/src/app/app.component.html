@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ngFor</title>
+  <style>
+    body{
+      color: rgb(10, 243, 243);
+    }
+    div{
+      background-color: orangered;
+    }
+  </style>
+</head>
+<body>
+
+<!-- -->
+<div>
+    <h3>Esempio di come funziona il ngFor</h3>
+  <p>Lista della spesa: </p>
+  <ul>
+    <li *ngFor="let val of lista; let i = index"> Voce numero {{i}} elemento {{val}}  </li>
+  </ul> 
+</div>
+
+
+
+</body>
+</html>
